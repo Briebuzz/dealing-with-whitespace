@@ -17,11 +17,12 @@ body {
 article {
   font-size: 1em;
   border-bottom: 2px solid #999;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.3rem;
 }
 
-article header h1 {
+article h1 {
   font-size: 1.5rem;
+  font-weight: normal;
 }
 
 article header {
@@ -33,5 +34,23 @@ article header p {
   font-style: italic;
   margin-top: -1.3rem;
   border-bottom: 2px solid #999;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1.3rem;
+}
+
+article p {
+  margin-bottom: 1.3rem;
+}
+
+article ol {
+  font-weight: normal;
+  margin-left: -1.3rem;
+}
+
+blockquote {
+  color: #555;
+  font-size: 1.125rem;
+}
+
+.quote {
+  color: #555;
 }
